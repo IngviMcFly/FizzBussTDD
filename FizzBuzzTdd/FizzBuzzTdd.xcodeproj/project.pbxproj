@@ -14,6 +14,7 @@
 		EDF31D3D242B641700C2DD9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF31D3C242B641700C2DD9E /* Assets.xcassets */; };
 		EDF31D40242B641700C2DD9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF31D3E242B641700C2DD9E /* LaunchScreen.storyboard */; };
 		EDF31D4B242B641700C2DD9E /* FizzBuzzTddTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF31D4A242B641700C2DD9E /* FizzBuzzTddTests.swift */; };
+		EDF31D57242B7C3000C2DD9E /* FizzBuzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF31D56242B7C3000C2DD9E /* FizzBuzz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EDF31D46242B641700C2DD9E /* FizzBuzzTddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzTddTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF31D4A242B641700C2DD9E /* FizzBuzzTddTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzTddTests.swift; sourceTree = "<group>"; };
 		EDF31D4C242B641700C2DD9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF31D56242B7C3000C2DD9E /* FizzBuzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		EDF31D32242B641300C2DD9E /* FizzBuzzTdd */ = {
 			isa = PBXGroup;
 			children = (
+				EDF31D55242B7C1900C2DD9E /* FizzBuzzModule */,
 				EDF31D33242B641300C2DD9E /* AppDelegate.swift */,
 				EDF31D35242B641300C2DD9E /* SceneDelegate.swift */,
 				EDF31D37242B641300C2DD9E /* ViewController.swift */,
@@ -97,6 +100,14 @@
 				EDF31D4C242B641700C2DD9E /* Info.plist */,
 			);
 			path = FizzBuzzTddTests;
+			sourceTree = "<group>";
+		};
+		EDF31D55242B7C1900C2DD9E /* FizzBuzzModule */ = {
+			isa = PBXGroup;
+			children = (
+				EDF31D56242B7C3000C2DD9E /* FizzBuzz.swift */,
+			);
+			path = FizzBuzzModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +214,7 @@
 				EDF31D38242B641300C2DD9E /* ViewController.swift in Sources */,
 				EDF31D34242B641300C2DD9E /* AppDelegate.swift in Sources */,
 				EDF31D36242B641300C2DD9E /* SceneDelegate.swift in Sources */,
+				EDF31D57242B7C3000C2DD9E /* FizzBuzz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
