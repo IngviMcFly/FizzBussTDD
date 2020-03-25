@@ -42,5 +42,8 @@ class FizzBuzzTddTests: XCTestCase {
         XCTAssertEqual(FizzBuzz.makeFizzBuzz(3), "Fizz")
     }
     
+    func test_resultForFour() {
+        XCTAssertEqual(FizzBuzz.makeFizzBuzz(4), "4")
+    }
     
 }
