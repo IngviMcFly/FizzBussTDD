@@ -20,6 +20,9 @@ import XCTest
 class FizzBuzz {
     
     static func makeFizzBuzz(_ count: Int) -> String {
+        if count == 3 {
+            return "Fizz"
+        }
         return "\(count)"
     }
     
