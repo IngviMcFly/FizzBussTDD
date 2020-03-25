@@ -63,4 +63,9 @@ class FizzBuzzTddTests: XCTestCase {
         XCTAssertEqual(FizzBuzz.makeFizzBuzz(15), "FizzBuzz")
     }
     
+    func test_resultForNumberDividedbyThreeAndFive() {
+        XCTAssertEqual(FizzBuzz.makeFizzBuzz(30), "FizzBuzz")
+        XCTAssertEqual(FizzBuzz.makeFizzBuzz(60), "FizzBuzz")
+        XCTAssertEqual(FizzBuzz.makeFizzBuzz(90), "FizzBuzz")
+    }
 }
