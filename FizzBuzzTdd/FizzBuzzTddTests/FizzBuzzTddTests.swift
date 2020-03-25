@@ -22,7 +22,7 @@ class FizzBuzz {
     static func makeFizzBuzz(_ count: Int) -> String {
         if count == 5 {
             return "Buzz"
-        } else if count == 3 {
+        } else if count % 3 == 0 {
             return "Fizz"
         }
         return "\(count)"
