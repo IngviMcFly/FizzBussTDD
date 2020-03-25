@@ -20,10 +20,9 @@ import XCTest
 class FizzBuzz {
     
     static func makeFizzBuzz(_ count: Int) -> String {
-        if count == 15 {
+        if count % 3 == 0 && count % 5 == 0 {
             return "FizzBuzz"
-        }
-        if count == 5 {
+        } else if count == 5 {
             return "Buzz"
         } else if count % 3 == 0 {
             return "Fizz"
