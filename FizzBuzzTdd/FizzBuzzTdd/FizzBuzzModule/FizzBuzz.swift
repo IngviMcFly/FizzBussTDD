@@ -20,7 +20,7 @@ public class FizzBuzz {
     static func makeFizzBuzz(_ count: Int) -> String {
         if count % 3 == 0 && count % 5 == 0 {
             return "FizzBuzz"
-        } else if count == 5 {
+        } else if count % 5 == 0 {
             return "Buzz"
         } else if count % 3 == 0 {
             return "Fizz"

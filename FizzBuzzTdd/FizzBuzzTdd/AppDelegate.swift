@@ -11,10 +11,15 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Print to console Fizz Buzz results
+        (1...100).forEach { (count) in
+            print(FizzBuzz.makeFizzBuzz(count))
+        }
+        
+        
         return true
     }
 

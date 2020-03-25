@@ -36,6 +36,10 @@ class FizzBuzzTddTests: XCTestCase {
         XCTAssertEqual(FizzBuzz.makeFizzBuzz(9), "Fizz")
     }
     
+    func test_resultForTen() {
+        XCTAssertEqual(FizzBuzz.makeFizzBuzz(10), "Buzz")
+    }
+    
     func test_resultForFifteen() {
         XCTAssertEqual(FizzBuzz.makeFizzBuzz(15), "FizzBuzz")
     }
