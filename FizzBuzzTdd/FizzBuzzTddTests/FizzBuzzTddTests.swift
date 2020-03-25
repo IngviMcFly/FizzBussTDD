@@ -30,5 +30,9 @@ class FizzBuzzTddTests: XCTestCase {
     func test_resultForOne() {
         XCTAssertEqual(FizzBuzz.makeFizzBuzz(1), "1")
     }
+    
+    func test_resultForTwo() {
+        XCTAssertEqual(FizzBuzz.makeFizzBuzz(2), "2")
+    }
 
 }
