@@ -20,7 +20,7 @@ import XCTest
 class FizzBuzz {
     
     static func makeFizzBuzz(_ count: Int) -> String {
-        return ""
+        return "1"
     }
     
 }
